@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up New User</title>
+</head>
+<body>
+    <form >
+        <label for="name">Enter Your Name:</label><br>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="year">Enter Your Current Year of Study:</label><br>
+        <select name="year" id="year">
+            <option value="">---Choose a year---</option>
+            <option value="1st">1st Year</option>
+            <option value="2nd">2nd Year</option>
+            <option value="3rd">3rd Year</option>
+            <option value="4th">4th Year</option>
+        </select><br><br>
+        <label for="branch">Enter Your Branch:</label><br>
+        <input list="branches" name="branch" id="branch">
+        <datalist id="branches">
+            <option value="Computer Science and Engineering"></option>
+            <option value="Computer Science"></option>
+            <option value="Computer Science and Engineering (Artificial Intelligence & Machine Learning)"></option>
+            <option value="Computer Science and Engineering (Data Science)"></option>
+            <option value="Artificial Intelligence & Machine Learning"></option>
+            <option value="Computer Science and Engineering (Hindi)"></option>
+            <option value="Civil Engineering"></option>
+            <option value="Electronics and Communication Engineering"></option>
+            <option value="Electrical and Electronics Engineering"></option>
+            <option value="Information Technology"></option>
+            <option value="Computer Science and Information Technology"></option>
+            <option value="Mechanical Engineering"></option>
+            <option value=""></option>
+        </datalist><br><br>
+        <label for="interests">Enter Your Interests:</label><br>
+        <input type="text" name="interests" id="interests"><br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
