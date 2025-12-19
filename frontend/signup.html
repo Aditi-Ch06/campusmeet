@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up New User</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form >
+    <form id="signup">
         <label for="name">Enter Your Name:</label><br>
         <input type="text" name="name" id="name"><br><br>
+        <label for="email">Enter Email:</label><br>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="password">Enter Password:</label><br>
+        <input type="password" name="password" id="password"><br><br>
         <label for="year">Enter Your Current Year of Study:</label><br>
         <select name="year" id="year">
             <option value="">---Choose a year---</option>
@@ -36,7 +41,7 @@
         </datalist><br><br>
         <label for="interests">Enter Your Interests:</label><br>
         <input type="text" name="interests" id="interests"><br><br>
-        <input type="submit" value="submit">
+        <button type="submit">SignUp</button>
     </form>
 </body>
 </html>
